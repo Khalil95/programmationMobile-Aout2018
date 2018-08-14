@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrimoDeal</string>
+    <string name="textEmail">Email:</string>
+    <string name="hintInput">Entrez votre email ici</string>
+    <string name="textPassword">Mot de passe:</string>
+    <string name="titleApp">PrimoDeal</string>
+    <string name="login">Connecter</string>
+    <string name="register">Enregistrer</string>
+    <string name="sellerChoice">Je suis vendeur</string>
+    <string name="customerChoice">Je suis client</string>
+    <string name="title_activity_customer_register">CustomerRegisterActivity</string>
+    <string name="registerFormTitle">Register Form: Customer</string>
+    <string name="registerFormTitleSeller">Inscription</string>
+    <string name="textName">Nom:</string>
+    <string name="textFirstName">Prenom</string>
+    <string name="textBirthdate">Birthdate:</string>
+    <string name="textPwConfirmation">confirmation du mot de passe:</string>
+    <string name="textPw">mot de passe</string>
+    <string name="shop_address">adresse du magasin</string>
+    <string name="buttonNewPublication">Nouvelle publication</string>
+    <string name="buttonMyPublication">Mes publications</string>
+    <string name="buttonAllPublications">Toute les publications de namur</string>
+    <string name="TitelCreatePublication">Titre</string>
+    <string name="DescriptionPublicationText">Description de la publication</string>
+    <string name="buttonAddQuestion">Add question</string>
+    <string name="QuestionPublication">Question</string>
+    <string name="ResponseQuestionSellerText">Reponse</string>
+    <string name="buttonAddResponsePublicationSeller">Ajouter une reponse</string>
+    <string name="buttonCancelPublicationSeller">Annuler</string>
+    <string name="buttonPostPublication">Poster</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="input_question">question</string>
+    <string name="hint_question">Question</string>
+    <string name="hint_descriptionPublication">Description of the publication</string>
+    <string name="hint_titlePublication">Title</string>
+    <string name="textviewMenuCommercant">Menu Commerçant</string>
+    <string name="ShopName">Shop name</string>
+    <string name="AddressShop">Address shop</string>
+    <string name="radiobuttonActiveAnswer">With answer</string>
+    <string name="titlePublicationDetail">Publication</string>
+    <string name="Yesradiobutton">oui</string>
+    <string name="Noradiobutton">non</string>
+    <string name="Indifferentradiobutton">indifferent</string>
+    <string name="buttonPostResponse">Poster</string>
+    <string name="swaprefresh">Swap Refresh</string>
+    <string name="backActionBar">Back</string>
+    <string name="deconnectionActionBar">deconnection</string>
+    <string name="textviewTitleStoreCard">fiche du magasin</string>
+    <string name="buttonSeeOnGoogleMap">Voir sur google Map</string>
+    <string name="textviewAddressShop">Adresse :</string>
+    <string name="textviewNameShopTitle">Nom :</string>
+    <string name="buttonStoreCard">Fiche du magasin</string>
+    <string name="buttonDeletePublication">Supprimer une publication</string>
+    <string name="textViewStatTitle">Titre</string>
+    <string name="textViewStatDescription" />
+    <string name="ghj">gh</string>
+    <string name="errorserver">Serveur inconnue</string>
+    <string name="errorSession">Votre session est expirée</string>
+    <string name="unknowUser">Email ou mot de passe invalide</string>
+    <string name="newInscription">Vous etes bien inscrit ! Merci de vous logger</string>
+</resources>

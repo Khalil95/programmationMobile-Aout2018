@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/titlePublicationDetail"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewTitlePublicationDetail"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textViewDescriptionPublicationDetail"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/buttonStoreCard"
+            android:layout_width="152dp"
+            android:layout_height="35dp"
+            android:text="@string/buttonStoreCard" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewYesPublicationDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textViewNoPublicationDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textViewIndifferentPublicationDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButtonResYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onRadioButtonResponseClicked"
+                android:text="@string/Yesradiobutton" />
+
+            <RadioButton
+                android:id="@+id/radioButtonResNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onRadioButtonResponseClicked"
+                android:text="@string/Noradiobutton" />
+
+            <RadioButton
+                android:id="@+id/radioButtonResIndifferent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onRadioButtonResponseClicked"
+                android:text="@string/Indifferentradiobutton" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonSendResponse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonPostResponse" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

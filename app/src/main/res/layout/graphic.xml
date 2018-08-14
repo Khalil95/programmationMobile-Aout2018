@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Petit Sondage"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="312dp"
+        android:layout_height="23dp"
+        android:text="33 % de gens preferent les sacs en bandoulière"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="256dp"
+        android:layout_height="29dp"
+        android:text="67 % de gens preferent les sacs a dos "
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="384dp" />
+</android.support.constraint.ConstraintLayout>

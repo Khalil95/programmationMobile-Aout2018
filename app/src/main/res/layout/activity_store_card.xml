@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="top">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textviewTitleStoreCard"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/textviewNameShopTitle" />
+
+                <TextView
+                    android:id="@+id/textViewNameShopCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="117dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/textviewAddressShop" />
+
+                <TextView
+                    android:id="@+id/textViewAddressShopCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TextView" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonSeeOnGoogleMap"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonSeeOnGoogleMap" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

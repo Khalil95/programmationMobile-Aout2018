@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.StatPublicationOfUserActivity">
+
+
+    <TextView
+        android:id="@+id/textViewStatTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewStatDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView" />
+
+    <com.github.mikephil.charting.charts.HorizontalBarChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        >
+
+    </com.github.mikephil.charting.charts.HorizontalBarChart>
+
+    <Button
+        android:id="@+id/buttonDeletePublication"
+        android:layout_width="match_parent"
+        android:text="@string/buttonDeletePublication"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
