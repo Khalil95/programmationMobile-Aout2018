@@ -165,7 +165,8 @@ public class PersonDao {
             code=connection.getResponseCode();
             connection.disconnect();
             if(code ==200){
-                _user = getPerson(userName);
+                //_user = getPerson(userName);
+                 _user = this.login(userName, password);
             }
         }catch(Exception e){ /*e.printStackTrace();*/ }
         return code;
